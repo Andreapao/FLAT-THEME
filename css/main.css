@@ -27,11 +27,16 @@ body{
   background: white;
 }
 
-.slider{
-	margin-top: 5%;
+
+@media (max-width:500px) { 
+	.slider{
+		padding-top: 5%;
+	}
 }
-.pt-5 {
-	padding-top: 5%;
+@media (max-width:400px) { 
+	.use{
+		padding-top: 15%;
+	}
 }
 
 .redes i{
